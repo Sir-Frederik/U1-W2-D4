@@ -122,7 +122,7 @@ const reverseString = function (x) {
     let gnirts = [];
     let array = x.split("");
 
-    for (let i = array.length - 1; i === 0; i--) {
+    for (let i = array.length - 1; i >= 0; i--) {
       gnirts.push(array[i]);
     }
     return gnirts.join("");
