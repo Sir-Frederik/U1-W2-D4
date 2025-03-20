@@ -79,14 +79,41 @@ console.log(boundary(400));
  ritornare la stringa originale senza alterarla.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// const epify = function (x) {
+//   if (typeof x === "string") {
+//     if (x.startsWith("EPICODE")) {
+//       return x;
+//     } else {
+//       return "EPICODE" + x;
+//     }
+//   } else {
+//     return "Mi spiace ma non hai inserito una stringa e non posso farci proprio niente di niente. Pur volendo, davvero, ho le mani legate, niente di personale, ordini dall'alto.";
+//   }
+// };
+// console.log(epify("Bombolo"));
+// console.log(epify("EPICODE bombolino"));
+// console.log(epify(5));
 
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
  di 3 o di 7. (Suggerimento: usa l'operatore modulo)
 */
+// const check3and7 = function (a) {
+//   if (a >= 0) {
+//     if (a % 3 != 0 && a % 7 != 0) {
+//       return "non è un multiplo di 3 nè di 7";
+//     } else {
+//       return " è un multiplo di 3 o di 7";
+//     }
+//   } else {
+//     return " O non hai inserito un numero, oppure esso è  negativo, come il mio umore. ";
+//   }
+// };
+// console.log(check3and7(3));
+// console.log(check3and7(7));
+// console.log(check3and7(2));
+// console.log(check3and7("cagnolino"));
 
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
