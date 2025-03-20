@@ -114,12 +114,23 @@ console.log(boundary(400));
 // console.log(check3and7(2));
 // console.log(check3and7("cagnolino"));
 
-
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
+const reverseString = function (x) {
+  if (typeof x === "string") {
+    let gnirts = [];
+    let array = x.split("");
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+    for (let i = array.length - 1; i === 0; i--) {
+      gnirts.push(array[i]);
+    }
+    return gnirts.join("");
+  } else {
+    return "non hai inserito una stringa";
+  }
+};
+console.log(reverseString("ciao"));
 
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
